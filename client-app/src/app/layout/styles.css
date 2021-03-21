@@ -1,0 +1,123 @@
+body{
+    background-color: #f0f2f5 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+.ui.inverted.top.fixed.menu{
+    background-image: linear-gradient(135deg,rgb(24,42,115) 0%,rgb(33,138,174) 69%, rgb(32,167,172) 89%) !important;
+}
+
+.react-calendar{
+    width: 100% !important;
+    border:none !important;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%) !important;
+}
+
+
+.masthead {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(
+            135deg,
+            rgb(24, 42, 115) 0%,
+            rgb(33, 138, 174) 69%,
+            rgb(32, 167, 172) 89%
+    ) !important;
+    height: 100vh;
+  }
+  
+  .masthead .ui.menu .ui.button,
+  .ui.menu a.ui.inverted.button {
+    margin-left: 0.5em;
+  }
+  
+  .masthead h1.ui.header {
+    font-size: 4em;
+    font-weight: normal;
+  }
+  
+  .masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+  }
+  
+  .react-datepicker-wrapper{
+    width: 100%;
+  }
+
+  .ui.segments, .ui.large.vertical,.react-calendar,.ui.fluid.vertical.menu, .ui.bottom.attached.segment.active.tab, .profileHeader ,.detailedSidebar , .tealHeader, .commentSectionContent{
+    border-radius: 8px !important;
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%) !important;
+    background-color: white !important;
+  }
+
+  .ui.segment{
+    border-radius: 8px !important;
+
+  }
+
+ .ui.teal.attached.header{
+  border-radius: 8px 8px 0 0  !important;
+ }
+
+ .ui.inverted.top.fixed.menu{
+  border-radius: 0 0 8px 8px !important;
+  box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%) !important;
+ }
+/* 
+.activityItemHeader{
+  margin-top: 20px !important;
+} */
+
+.ui.comments .comment{
+  padding: 10px !important;
+  border-radius: 8px !important;
+  background-color: #f0f2f5 !important;
+  
+}
+
+.ui.comments .ui.form,.detailedSidebar{
+  margin-top: 15px !important;
+}
+
+.commentSectionHeader{
+  margin-bottom: 15px !important;
+}
+
+
+/* css loader  - Loading Component */
+
+.pulse-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulse-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.pulse-bubble-1 {
+    animation: pulse .4s ease 0s infinite alternate;
+}
+.pulse-bubble-2 {
+    animation: pulse .4s ease .2s infinite alternate;
+}
+.pulse-bubble-3 {
+    animation: pulse .4s ease .4s infinite alternate;
+}
+
+.loadingContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+}
+
+/* css loader  - Loading Component - END */
